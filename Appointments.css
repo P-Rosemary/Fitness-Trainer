@@ -1,0 +1,78 @@
+body {
+    background-image: url("Appointments.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Update{
+    display: none
+}
+
+.required::after{
+    content: "*";
+    color: red;
+    font-size: 18px;
+}
+
+
+   
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+#formContainer { 
+    margin-bottom:20px; 
+} 
+
+label { 
+    display: block; 
+    margin-top: 10px;
+    color:#4CAF50;
+} 
+
+input, 
+textarea { 
+    width: 300px; 
+    padding: 8px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+} 
+
+button { 
+    margin: 10px; 
+    padding: 8px 16px; 
+    background-color:  #4CAF50; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+} 
+
+button:hover { 
+    background-color: #4CAF50; 
+} 
+
+table { 
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+    width: 100%; 
+} 
+
+th ,
+td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+} 
+
+th { 
+    background-color: #727572; 
+    color: #fff; 
+}
+tr {
+    color: #eff6ef;
+
+}

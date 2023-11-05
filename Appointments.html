@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> Appointments </title> 
+    <link rel="stylesheet" href="Appointments.css">
+</head> 
+
+<body>
+    <div>
+        <h1 style="color: #4CAF50;"><center>Fitness & Wellness Center</center></h1>
+    </div>
+        <div id="formContainer">
+                <h2 style="color: white;">Appointment Management</h2>
+                <label class="required" for="firstNameInput"> 
+                    FirstName: 
+                </label> 
+                <input type="text" 
+                       id="firstNameInput" 
+                       placeholder="Enter your first name"> 
+                <label class="required" for="lastNameInput"> 
+                    LastName: 
+                </label> 
+                <input type="text" 
+                       id="lastNameInput" 
+                       placeholder="Enter your last name"> 
+                <label class="required" for="locationInput"> 
+                    Location: 
+                </label> 
+                <input type="text" 
+                       id="locationInput" 
+                       placeholder="Enter your Location"> 
+                <label class="required" for="dateTimeInput"> 
+                    Choose DateTime for your appointment: 
+                </label> 
+                <input  type="datetime-local"
+                        id="dateTimeInput" 
+                        placeholder="select Date & Time"> 
+                </input>
+                <div class="col-lg-12 mt-5"> 
+                    <button class="btn btn-success" id="Submit" onclick="addData()"> 
+                      Add
+                    </button>
+                    <button class="btn btn-primary" id="Update" onclick="addData()"> 
+                      Update
+                    </button>
+                </div>
+        </div>
+        <table id="outputTable">
+            <thead> 
+            <tr> 
+                <th>FirstName</th> 
+                <th>LastName</th> 
+                <th>Location</th> 
+                <th>AppointmentDate</th> 
+                <th>Action</th> 
+            </tr>
+            </thead>
+            <tbody></tbody> 
+        </table>
+    <script src="Appointments.js"></script>
+</body> 
+</html>
